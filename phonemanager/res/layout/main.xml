@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:background="#fff"
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+        >
+
+
+
+    <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:background="#ffffff"
+            android:paddingBottom="10dp"
+            >
+        <RadioButton
+                android:background="@drawable/selector_radionbutton_bg"
+                android:id="@+id/rabt01"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:text="黑名单"
+                android:textColor="@color/selector_radiobutton_color"
+                android:gravity="center"
+                android:paddingTop="10dp"
+
+                />
+
+        <RadioButton
+                android:background="@drawable/selector_radionbutton_bg"
+                android:id="@+id/rabt02"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="短信拦截"
+                android:textColor="@color/selector_radiobutton_color"
+                android:paddingTop="10dp"
+
+                />
+        <RadioButton
+                android:background="@drawable/selector_radionbutton_bg"
+                android:id="@+id/rabt03"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="电话拦截"
+                android:textColor="@color/selector_radiobutton_color"
+                android:paddingTop="10dp"
+
+                />
+    </RadioGroup>
+
+        <android.support.v4.view.ViewPager
+                android:id="@+id/main_view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/radiogroup"
+                ></android.support.v4.view.ViewPager>
+</RelativeLayout>
+

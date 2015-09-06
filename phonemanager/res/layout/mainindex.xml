@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:gravity="center|center_horizontal"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btn_contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#06A545"
+            android:gravity="center"
+            android:src="@drawable/lianxinren1" />
+
+        <ImageButton
+            android:id="@+id/btn_jiexin"
+            android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="#06A545"
+            android:gravity="center"
+            android:src="@drawable/lianxinren2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <ImageButton
+            android:id="@+id/btn_sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#06A545"
+            android:gravity="center"
+            android:src="@drawable/duanxin1" />
+
+        <ImageButton
+            android:id="@+id/btn_smsjiexin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="#06A545"
+            android:gravity="center"
+            android:src="@drawable/duanxin2" />
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btn_lanjie"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#06A545"
+            android:gravity="center"
+            android:src="@drawable/lianjie" />
+
+        <ImageButton
+            android:id="@+id/btn_more"
+           android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="#06A545"
+            android:gravity="center"
+            android:src="@drawable/more" />
+    </LinearLayout>
+    <!--
+    <Button
+        android:id="@+id/btn_contacts"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+          android:gravity="center"
+          android:layout_marginTop="5dp"
+         android:background="#06A545"
+        android:text="联系人备份" />
+
+    <Button
+        android:id="@+id/btn_jiexin"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+          android:gravity="center"
+         android:layout_marginTop="5dp"
+         android:background="#06A545"
+        android:text="导入联系人" />
+
+    <Button
+        android:id="@+id/btn_sms"
+       android:layout_width="150sp"
+        android:layout_height="wrap_content"
+          android:gravity="center"
+         android:layout_marginTop="5dp"
+  		android:background="#06A545"
+        android:text="短信备份" />
+
+    <Button
+        android:id="@+id/btn_smsjiexin"
+       android:layout_width="150sp"
+        android:layout_height="wrap_content"
+          android:gravity="center"
+         android:layout_marginTop="5dp"
+           android:background="#06A545"
+        android:text="导入短信" />
+    -->
+
+</LinearLayout>

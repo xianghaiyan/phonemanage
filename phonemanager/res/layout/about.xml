@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:src="@drawable/wo" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView1"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:text="制作人："
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#009100" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.74"
+        android:gravity="center"
+        android:lines="5"
+        android:textSize="20sp"
+        android:text="向海燕 Copyright1034262557@qq.com"
+        android:textColor="#000000" />
+
+</LinearLayout>

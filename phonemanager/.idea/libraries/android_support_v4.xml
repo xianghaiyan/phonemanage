@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="android-support-v4">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://D:/deve_tools/Android_SDK_windows/sdk/extras/android/support/v4/src/java" />
+    </SOURCES>
+  </library>
+</component>
